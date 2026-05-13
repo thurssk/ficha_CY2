@@ -39,3 +39,99 @@ body {background-color: black;
     border-radius: 5px;
     padding-left: 10px;
 }
+.conteiner-conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+}
+.sessao-conteudo-principal {
+    width: 900px;
+    height: 600px;
+    background-color: whitesmoke;
+    grid-template-columns: 0.5fr 1.5fr 1fr;
+    padding: 50px 0px;
+}
+.conteiner-modificadores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+.conteiner-modificadores > div p{
+    text-align: center;
+    font-weight: bold;
+}
+.conteiner-modificadores > div input {
+    border-radius: 5px;
+    height: 30px;
+    padding-left: 10px;
+}
+.conteiner-vdv-img {
+    display: flex;
+    flex-direction: column;
+}
+.conteiner-vdv {
+    width: 100%;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+}
+.conteiner-vdv > div p {
+    text-align: center;
+    font-size: 25px;
+}
+.conteiner-vdv > div input {
+    border-radius: 5px;
+    height: 30px;
+    width: 95%;
+    padding: 5px;
+}
+.conteiner-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner-img img {
+    width: 80%;
+    height: 100%;
+    padding-left: 50px;
+}
+.conteiner-biografia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteiner-biografia h2 {
+    padding-bottom: 15px;
+}
+.conteiner-biografia textarea {
+    border-radius: 10px;
+    resize: none;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+.sessao-conteudo-secundario {
+    width: 900px;
+    height: 300px;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+.sessao-conteudo-secundario > div > h2 {
+    padding-bottom: 15px;
+}
+.sessao-conteudo-secundario > div > textarea {
+    width: 80%;
+    border-radius: 10px;
+    resize: none;
+}
