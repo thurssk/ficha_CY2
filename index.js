@@ -33,3 +33,30 @@ lista["filmes"][1] = "Justice War";
 
 document.write(lista["series"][1]);
 document.write(lista["filmes"][1]);
+// condicional
+var num = 10
+
+if(num == 10){
+    document.write("É igual")}
+else{
+    document.write("É diferente")
+}
+
+var hora = 12
+if(hora < 12) {document.write("Bom dia!");}
+else if(hora < 18) {document.write("Boa tarde!");}
+else if(hora < 19 && hora < 7) {document.write("Boa noite!");}
+
+var opcao = 1
+var saldo = 300
+
+switch(opcao){
+    case 1:
+        document.write("Seu saldo: " + saldo);
+        break;
+    case 2:
+        document.write("adicionado" + saldo);
+        break;
+    default:
+        document.write("deslogando!")
+}
